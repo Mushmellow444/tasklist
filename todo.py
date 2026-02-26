@@ -1,14 +1,15 @@
+#Make a todo list, assign variable name
 tasks = []
-
+#Have system keep running and tell the user's choices
 while True:
     print("\n--- To-Do List ---")
     print("1. View tasks")
     print("2. Add task")
     print("3. Remove task")
     print("4. Exit")
-
+#Ask users input
     choice = input("Choose an option: ")
-
+#Respond based on users input
     # VIEW TASKS
     if choice == "1":
         if len(tasks) == 0:
